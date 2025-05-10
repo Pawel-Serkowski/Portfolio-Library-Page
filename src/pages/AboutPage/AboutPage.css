@@ -1,0 +1,27 @@
+#about-page .s50-50:last-child {
+    background-color: var(--leather-color);
+    text-align: center;
+}
+
+#about-page .s50-50:last-child h1,
+#about-page .s50-50:last-child h2,
+#about-page .s50-50:last-child p {
+    color: var(--binding-color);
+    border-color: var(--binding-color);
+}
+
+#about-page .s50-50:last-child img {
+    width: 100%;
+}
+
+#about-page .s50-50:first-child {
+    text-align: center;
+}
+
+article h2 {
+    margin-bottom: 10px;
+}
+
+.background.aboutPage {
+    background-image: url("/images/AboutImage.jpg");
+}

@@ -1,0 +1,26 @@
+.navbar-frame {
+    padding: 0 37px;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 92px;
+    display: flex;
+    justify-content: center;
+    background-color: var(--manuscript-color);
+
+    z-index: 100;
+}
+
+nav {
+    width: 1512px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav #logo {
+    font-family: var(--h-font);
+    font-size: var(--h2-size);
+}

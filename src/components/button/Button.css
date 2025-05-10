@@ -1,0 +1,32 @@
+.buttonBox {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.customButton {
+    width: 263px;
+    height: 57px;
+    font-family: var(--p-font);
+    font-size: var(--p-size);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+
+    border: none;
+    outline: none;
+}
+
+.customButton.light {
+    background-color: var(--leather-color);
+    color: var(--parchment-color);
+}
+
+.customButton.light:hover {
+    background-color: var(--parchment-color);
+    color: var(--binding-color);
+}

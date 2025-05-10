@@ -1,0 +1,8 @@
+.navlinks {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 387px;
+    list-style: none;
+    flex: 85px;
+}
