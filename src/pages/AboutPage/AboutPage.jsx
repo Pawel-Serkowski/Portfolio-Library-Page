@@ -15,7 +15,7 @@ const AboutPage = () => {
                         which reads, assess and creates a reliable rating of our books, so you can have confidence that you read book and
                         you will be not disappointed.
                     </p>
-                    <Button text="Check open hours" href="#contact-page" />
+                    <Button text="Check open hours" link="#contact-page" isLink={true} />
                 </div>
                 <div className="background aboutPage" />
                 <div className="black-wall" />

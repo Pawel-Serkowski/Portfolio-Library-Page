@@ -13,7 +13,7 @@ const MainPage = () => {
                         In our library you can borrow, read and discover new books. Do you have any ideas what you want read this time? We
                         specialise in fantasy, sci-fi and adventure books which will take you to different universe. We made you curious?
                     </p>
-                    <Button text="Read more about us" href="#" />
+                    <Button text="Read more about us" link="#" isLink={true} />
                 </div>
             </div>
             <div className="s50-50">{/* image added in css */}</div>
