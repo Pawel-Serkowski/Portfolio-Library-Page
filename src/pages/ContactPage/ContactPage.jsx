@@ -1,4 +1,6 @@
 import Form from "../../components/form/Form";
+
+import MapImage from "/images/Mapa.png";
 import "./ContactPage.css";
 
 const ContactPage = () => {
@@ -18,7 +20,7 @@ const ContactPage = () => {
                     </div>
                     <div id="find-us">
                         <h2>Find us on map</h2>
-                        <img src="/images/Mapa.png" alt="map" />
+                        <img src={MapImage} alt="map" />
                         <div id="contact">
                             <p>
                                 <svg width="800px" height="800px" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">

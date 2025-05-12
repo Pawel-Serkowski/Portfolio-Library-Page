@@ -4,13 +4,13 @@ function Links() {
     return (
         <ul className="navlinks">
             <li>
-                <a>Home</a>
+                <a href="#main-page">Home</a>
             </li>
             <li>
-                <a>About us</a>
+                <a href="#about-page">About us</a>
             </li>
             <li>
-                <a>Contact</a>
+                <a href="#contact-page">Contact</a>
             </li>
         </ul>
     );

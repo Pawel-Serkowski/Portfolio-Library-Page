@@ -109,7 +109,7 @@ section {
     }
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1000px) {
     :root {
         --h2-size: 2rem;
         --h1-size: 2.8rem;
@@ -130,5 +130,16 @@ section {
         display: flex;
         justify-content: center;
         position: relative;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    :root {
+        --h2-size: 1.7rem;
+        --h1-size: 2.8rem;
+        --p-size: 1rem;
+    }
+    .wrapper {
+        width: 90%;
     }
 }

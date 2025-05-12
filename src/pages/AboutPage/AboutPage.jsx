@@ -1,5 +1,7 @@
 import Button from "../../components/button/Button";
 
+import BookImage from "/images/AboutImage1.jpg";
+
 import "./AboutPage.css";
 
 const AboutPage = () => {
@@ -30,7 +32,7 @@ const AboutPage = () => {
                         </p>
                     </article>
 
-                    <img src="/images/AboutImage1.jpg" alt="Sombody holding a book" />
+                    <img src={BookImage} alt="Sombody holding a book" />
                 </div>
             </div>
         </section>

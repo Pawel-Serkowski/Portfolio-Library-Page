@@ -6,3 +6,17 @@
     list-style: none;
     flex: 85px;
 }
+
+.navlinks a:hover {
+    border-bottom: 2px solid var(--parchment-color);
+}
+
+@media only screen and (max-width: 600px) {
+    .navlinks {
+        gap: 12px;
+    }
+    a {
+        font-size: 14px;
+        text-align: center;
+    }
+}
