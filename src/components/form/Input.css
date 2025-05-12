@@ -1,0 +1,23 @@
+.customInput {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.customInput input,
+.customInput textarea {
+    outline: none;
+    border: none;
+    color: var(--manuscript-color);
+    font-size: var(--p-size);
+    padding-left: 12px;
+}
+
+.customInput input {
+    height: 46px;
+}
+
+.customInput textarea {
+    height: 129px;
+    padding-top: 10px;
+}

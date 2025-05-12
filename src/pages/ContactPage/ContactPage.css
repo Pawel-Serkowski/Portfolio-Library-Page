@@ -1,0 +1,41 @@
+.background.contactPage {
+    background-image: url("/images/contactPage.jpg");
+}
+
+#contact-page h2 {
+    text-align: left;
+}
+
+#open-hours {
+    width: 100%;
+}
+
+#find-us img {
+    width: 100%;
+}
+
+#find-us {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+
+#find-us svg {
+    width: 32px;
+    height: 32px;
+    fill: var(--parchment);
+}
+
+#contact-page #contact {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: flex-start;
+}
+
+#contact-page #contact p {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}

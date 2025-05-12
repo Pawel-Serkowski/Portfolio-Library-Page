@@ -7,7 +7,7 @@
 #about-page .s50-50:last-child h2,
 #about-page .s50-50:last-child p {
     color: var(--binding-color);
-    border-color: var(--binding-color);
+    border-color: var(--manuscript-color);
 }
 
 #about-page .s50-50:last-child img {
